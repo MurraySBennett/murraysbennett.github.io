@@ -29,6 +29,12 @@ nav li a {
     border-right: 1px solid #bbb;
 }
 
+nav li a.current-page {
+    background-color: #575757;
+    color: #fff;
+    font-weight: bold;
+}
+
 nav li:last-child a {
     border-right: none;
 }
