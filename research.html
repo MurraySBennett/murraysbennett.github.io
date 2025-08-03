@@ -6,7 +6,6 @@
     <title>Murray S. Bennett - Research & CV</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* This is for the interactive CV sections */
         details {
             border: 1px solid #ddd;
             border-radius: 4px;
@@ -18,17 +17,33 @@
             font-size: 1.5em;
             font-weight: bold;
             cursor: pointer;
-            outline: none; /* Removes the focus outline */
+            outline: none;
             padding: 5px 0;
         }
-
-        /* Style for the nested headings */
         h3 {
             margin-top: 20px;
             font-size: 1.2em;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<footer>
+    <hr>
+    <p>
+        <a href="mailto:bennett.1755@osu.edu"><i class="fas fa-envelope"></i> Email</a>
+        |
+        <a href="https://orcid.org/0000-0001-7309-4915" target="_blank"><i class="fab fa-orcid"></i> ORCID</a>
+        |
+        <a href="https://github.com/MurraySBennett" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    </p>
+    <p>
+        &copy; <span id="current-year"></span> Murray S. Bennett
+    </p>
+</footer>
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+    
 <body>
     <header>
         <nav>
